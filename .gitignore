@@ -1,0 +1,45 @@
+# data directories
+/unshared_data
+/creds/
+html/
+/metagisconfig2stac/restoscripts/restologs
+
+/data/stac
+
+/collectionconfig/native_assets
+/logs
+/read_parameters/downloads
+/read_parameters/unshared_data
+/metagisconfig2stac/poststac/unshared_data
+/~
+.vscode/
+/data/restologs
+#specific files
+/data/emodnet_edito_transformation_table.csv
+/data/metagis_cp_titles.csv
+metagis_config_php.json
+metagis_edito_php.json
+settings.json
+
+# modules
+node_modules/
+__pycache__/
+.venv/
+temp_assets/
+
+# environment variables
+*.pylintrc
+*.env
+
+# geospatial data types
+*.nc
+*.shp
+*.zarr
+*.gdb
+*.parquet
+#other file types
+*.zip
+*.log
+*.err
+*.txt
+*.url

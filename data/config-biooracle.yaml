@@ -1,0 +1,10 @@
+layer_collection: bio_oracle
+layer_collection_config:  https://emodnet.ec.europa.eu/geoviewer/catalog.php?collection=bio_oracle
+previous_layer_catalog: layer_catalogs/progress_bio_oracle_2024-07-30.json
+transfer_native_to_s3: False
+convert_arco: True
+create_backup_stac: True
+stac_s3_backup: backup_stac/biooracle_stac
+stac_title: Bio-Oracle
+stac_s3: bio_oracle/stac
+push_to_resto: False

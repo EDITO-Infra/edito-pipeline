@@ -1,0 +1,24 @@
+image: python:3.12.3
+
+stages:
+  - build
+  - deploy
+
+before_script:
+  - python3.12 -m venv .venv
+  - source .venv/bin/activate
+  - pip install -r requirements.txt
+
+build_docs:
+  stage: build
+  tags: 
+    - webdev
+  script:
+    - cd docs
+    - make clean html
+  artifacts:
+    paths:
+      - docs/_build/html
+  only:
+    - simplify
+

@@ -1,0 +1,7 @@
+{{ fullname | replace("metagisconfig2stac.", "") }}
+{{ underline }}
+
+.. automodule:: {{ module }}
+   :members:
+   :undoc-members:
+   :show-inheritance:

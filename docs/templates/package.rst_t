@@ -1,0 +1,7 @@
+{{ name }} package
+{{ "=" * name|length }}
+
+.. automodule:: {{ name }}
+    :members:
+    :undoc-members:
+    :show-inheritance:

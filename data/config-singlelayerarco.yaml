@@ -1,0 +1,15 @@
+layer_collection: dev_edito
+layer_collection_config: https://emodnet.ec.europa.eu/geoviewer/edito.php
+previous_layer_catalog: layer_catalogs/progress_edito_2024-10-27.json
+select:
+  - id:
+    - 13662
+stac_title: EMODnet Geology
+stac_s3: emodnet_geology/teststac_geology_jan2025
+create_backup_stac: False
+stac_s3_backup: backup_stac/backup_edito_stac_test
+transfer_native_to_s3: True
+convert_arco: True
+cp_transformation_table: False
+push_to_resto: True
+resto_instance: staging

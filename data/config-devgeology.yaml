@@ -1,0 +1,13 @@
+layer_collection: dev_edito
+layer_collection_config: http://dev.emodnet.eu/geoviewer/edito.php,
+previous_layer_catalog: layer_catalogs/progress_edito_2024-10-27.json,
+thematic_lots_to_process:
+  - EMODnet Geology
+stac_title: EMODnet Geology
+stac_s3: emodnet_geology/teststac_geology_dec2024
+create_backup_stac: False
+stac_s3_backup: backup_stac/backup_edito_stac_test
+transfer_native_to_s3: True
+convert_arco: True
+cp_transformation_table: True
+push_to_resto: False

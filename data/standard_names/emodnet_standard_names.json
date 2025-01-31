@@ -1,0 +1,2754 @@
+{
+    "emodnet_standard_names": [
+        {
+            "Convention": "emodnet",
+            "standard_name": "bathymetry_data_quality",
+            "description": "",
+            "canonical_units": "",
+            "amip": "",
+            "grib": "",
+            "aliases": [],
+            "variable_family": "elevation"
+        },
+        {
+            "Convention": "emodnet",
+            "standard_name": "bathymetry_source_metadata",
+            "description": "",
+            "canonical_units": "",
+            "amip": "",
+            "grib": "",
+            "aliases": [],
+            "variable_family": "elevation"
+        },
+        {
+            "Convention": "emodnet",
+            "standard_name": "elevation",
+            "description": "",
+            "canonical_units": "",
+            "amip": "",
+            "grib": "",
+            "aliases": [],
+            "variable_family": "elevation"
+        },
+        {
+            "Convention": "emodnet",
+            "standard_name": "coastlines",
+            "description": "",
+            "canonical_units": "",
+            "amip": "",
+            "grib": "",
+            "aliases": [],
+            "variable_family": "position"
+        },
+        {
+            "Convention": "emodnet",
+            "standard_name": "occurrence_data",
+            "description": "",
+            "canonical_units": "",
+            "amip": "",
+            "grib": "",
+            "aliases": [],
+            "variable_family": "biodiversity"
+        },
+        {
+            "Convention": "emodnet",
+            "standard_name": "benthic_invertebrate_abundance_and_distribution",
+            "description": "",
+            "canonical_units": "",
+            "amip": "",
+            "grib": "",
+            "aliases": [],
+            "variable_family": "biomass"
+        },
+        {
+            "Convention": "emodnet",
+            "standard_name": "macroalgae",
+            "description": "",
+            "canonical_units": "",
+            "amip": "",
+            "grib": "",
+            "aliases": [],
+            "variable_family": "biomass"
+        },
+        {
+            "Convention": "emodnet",
+            "standard_name": "zooplankton_biomass_and_diversity",
+            "description": "",
+            "canonical_units": "",
+            "amip": "",
+            "grib": "",
+            "aliases": [],
+            "variable_family": "biomass"
+        },
+        {
+            "Convention": "emodnet",
+            "standard_name": "water_body_chlorophyll_a",
+            "description": "",
+            "canonical_units": "",
+            "amip": "",
+            "grib": "",
+            "aliases": [],
+            "variable_family": "chlorophyll"
+        },
+        {
+            "Convention": "emodnet",
+            "standard_name": "water_body_chlorophyll_a_masked_using_relative_error_threshold_0.5",
+            "description": "",
+            "canonical_units": "",
+            "amip": "",
+            "grib": "",
+            "aliases": [],
+            "variable_family": "chlorophyll"
+        },
+        {
+            "Convention": "emodnet",
+            "standard_name": "water_body_chlorophyll_a_deepest",
+            "description": "",
+            "canonical_units": "",
+            "amip": "",
+            "grib": "",
+            "aliases": [],
+            "variable_family": "chlorophyll"
+        },
+        {
+            "Convention": "emodnet",
+            "standard_name": "deepest_values_of_water_body_chlorophyll_a",
+            "description": "",
+            "canonical_units": "",
+            "amip": "",
+            "grib": "",
+            "aliases": [],
+            "variable_family": "chlorophyll"
+        },
+        {
+            "Convention": "emodnet",
+            "standard_name": "concentration_of_cadmium",
+            "description": "",
+            "canonical_units": "",
+            "amip": "",
+            "grib": "",
+            "aliases": [],
+            "variable_family": "contaminants"
+        },
+        {
+            "Convention": "emodnet",
+            "standard_name": "concentration_of_ddt_dee_and_ddd",
+            "description": "",
+            "canonical_units": "",
+            "amip": "",
+            "grib": "",
+            "aliases": [],
+            "variable_family": "contaminants"
+        },
+        {
+            "Convention": "emodnet",
+            "standard_name": "concentration_of_hexachlorobenzene",
+            "description": "",
+            "canonical_units": "",
+            "amip": "",
+            "grib": "",
+            "aliases": [],
+            "variable_family": "contaminants"
+        },
+        {
+            "Convention": "emodnet",
+            "standard_name": "concentration_of_lead",
+            "description": "",
+            "canonical_units": "",
+            "amip": "",
+            "grib": "",
+            "aliases": [],
+            "variable_family": "contaminants"
+        },
+        {
+            "Convention": "emodnet",
+            "standard_name": "concentration_of_mercury",
+            "description": "",
+            "canonical_units": "",
+            "amip": "",
+            "grib": "",
+            "aliases": [],
+            "variable_family": "contaminants"
+        },
+        {
+            "Convention": "emodnet",
+            "standard_name": "concentration_of_nickel",
+            "description": "",
+            "canonical_units": "",
+            "amip": "",
+            "grib": "",
+            "aliases": [],
+            "variable_family": "contaminants"
+        },
+        {
+            "Convention": "emodnet",
+            "standard_name": "concentration_of_pah_anthracene",
+            "description": "",
+            "canonical_units": "",
+            "amip": "",
+            "grib": "",
+            "aliases": [],
+            "variable_family": "contaminants"
+        },
+        {
+            "Convention": "emodnet",
+            "standard_name": "concentration_of_pah_benzoapyrene",
+            "description": "",
+            "canonical_units": "",
+            "amip": "",
+            "grib": "",
+            "aliases": [],
+            "variable_family": "contaminants"
+        },
+        {
+            "Convention": "emodnet",
+            "standard_name": "concentration_of_pah_fluoranthene",
+            "description": "",
+            "canonical_units": "",
+            "amip": "",
+            "grib": "",
+            "aliases": [],
+            "variable_family": "contaminants"
+        },
+        {
+            "Convention": "emodnet",
+            "standard_name": "concentration_of_pah_naphthalene",
+            "description": "",
+            "canonical_units": "",
+            "amip": "",
+            "grib": "",
+            "aliases": [],
+            "variable_family": "contaminants"
+        },
+        {
+            "Convention": "emodnet",
+            "standard_name": "concentration_of_tributyltin",
+            "description": "",
+            "canonical_units": "",
+            "amip": "",
+            "grib": "",
+            "aliases": [],
+            "variable_family": "contaminants"
+        },
+        {
+            "Convention": "emodnet",
+            "standard_name": "concentration_of_triphenyltin",
+            "description": "",
+            "canonical_units": "",
+            "amip": "",
+            "grib": "",
+            "aliases": [],
+            "variable_family": "contaminants"
+        },
+        {
+            "Convention": "emodnet",
+            "standard_name": "contaminants_measurments_counts",
+            "description": "",
+            "canonical_units": "",
+            "amip": "",
+            "grib": "",
+            "aliases": [],
+            "variable_family": "contaminants"
+        },
+        {
+            "Convention": "emodnet",
+            "standard_name": "monitored_matrices",
+            "description": "",
+            "canonical_units": "",
+            "amip": "",
+            "grib": "",
+            "aliases": [],
+            "variable_family": "contaminants"
+        },
+        {
+            "Convention": "emodnet",
+            "standard_name": "beach_litter",
+            "description": "",
+            "canonical_units": "",
+            "amip": "",
+            "grib": "",
+            "aliases": [],
+            "variable_family": "litter"
+        },
+        {
+            "Convention": "emodnet",
+            "standard_name": "single_use_plastics_sup_related_items_abundance_normalized_per_100m_to_1_survey_litter_abundance",
+            "description": "",
+            "canonical_units": "",
+            "amip": "",
+            "grib": "",
+            "aliases": [],
+            "variable_family": "litter"
+        },
+        {
+            "Convention": "emodnet",
+            "standard_name": "composition_of_litter_according_to_material_categories_in_percent_normalized_per_beach_per_year_metal_percent",
+            "description": "",
+            "canonical_units": "",
+            "amip": "",
+            "grib": "",
+            "aliases": [],
+            "variable_family": "litter"
+        },
+        {
+            "Convention": "emodnet",
+            "standard_name": "micro_litter",
+            "description": "",
+            "canonical_units": "",
+            "amip": "",
+            "grib": "",
+            "aliases": [],
+            "variable_family": "litter"
+        },
+        {
+            "Convention": "emodnet",
+            "standard_name": "sea_floor_litter",
+            "description": "",
+            "canonical_units": "",
+            "amip": "",
+            "grib": "",
+            "aliases": [],
+            "variable_family": "litter"
+        },
+        {
+            "Convention": "emodnet",
+            "standard_name": "water_body_ammonium",
+            "description": "",
+            "canonical_units": "",
+            "amip": "",
+            "grib": "",
+            "aliases": [],
+            "variable_family": "nutrients"
+        },
+        {
+            "Convention": "emodnet",
+            "standard_name": "water_body_dissolved_inorganic_nitrogen",
+            "description": "",
+            "canonical_units": "",
+            "amip": "",
+            "grib": "",
+            "aliases": [],
+            "variable_family": "nutrients"
+        },
+        {
+            "Convention": "emodnet",
+            "standard_name": "water_body_dissolved_inorganic_nitrogen_masked_using_relative_error_threshold_0.5",
+            "description": "",
+            "canonical_units": "",
+            "amip": "",
+            "grib": "",
+            "aliases": [],
+            "variable_family": "nutrients"
+        },
+        {
+            "Convention": "emodnet",
+            "standard_name": "water_body_phosphate",
+            "description": "",
+            "canonical_units": "",
+            "amip": "",
+            "grib": "",
+            "aliases": [],
+            "variable_family": "nutrients"
+        },
+        {
+            "Convention": "emodnet",
+            "standard_name": "water_body_phosphate_masked_using_relative_error_threshold_0.5",
+            "description": "",
+            "canonical_units": "",
+            "amip": "",
+            "grib": "",
+            "aliases": [],
+            "variable_family": "nutrients"
+        },
+        {
+            "Convention": "emodnet",
+            "standard_name": "water_body_silicate",
+            "description": "",
+            "canonical_units": "",
+            "amip": "",
+            "grib": "",
+            "aliases": [],
+            "variable_family": "nutrients"
+        },
+        {
+            "Convention": "emodnet",
+            "standard_name": "water_body_silicate_masked_using_relative_error_threshold_0.5",
+            "description": "",
+            "canonical_units": "",
+            "amip": "",
+            "grib": "",
+            "aliases": [],
+            "variable_family": "nutrients"
+        },
+        {
+            "Convention": "emodnet",
+            "standard_name": "deepest_values_of_water_body_silicate",
+            "description": "",
+            "canonical_units": "",
+            "amip": "",
+            "grib": "",
+            "aliases": [],
+            "variable_family": "nutrients"
+        },
+        {
+            "Convention": "emodnet",
+            "standard_name": "water_body_dissolved_oxygen_concentration",
+            "description": "",
+            "canonical_units": "",
+            "amip": "",
+            "grib": "",
+            "aliases": [],
+            "variable_family": "o2"
+        },
+        {
+            "Convention": "emodnet",
+            "standard_name": "water_body_dissolved_oxygen_concentration_masked_using_relative_error_threshold_0.5",
+            "description": "",
+            "canonical_units": "",
+            "amip": "",
+            "grib": "",
+            "aliases": [],
+            "variable_family": "o2"
+        },
+        {
+            "Convention": "emodnet",
+            "standard_name": "fluid_emissions",
+            "description": "",
+            "canonical_units": "",
+            "amip": "",
+            "grib": "",
+            "aliases": [],
+            "variable_family": "geological_events_and_probabilities"
+        },
+        {
+            "Convention": "emodnet",
+            "standard_name": "geological_event_distribution",
+            "description": "",
+            "canonical_units": "",
+            "amip": "",
+            "grib": "",
+            "aliases": [],
+            "variable_family": "geological_events_and_probabilities"
+        },
+        {
+            "Convention": "emodnet",
+            "standard_name": "submarine_landslides",
+            "description": "",
+            "canonical_units": "",
+            "amip": "",
+            "grib": "",
+            "aliases": [],
+            "variable_family": "geological_events_and_probabilities"
+        },
+        {
+            "Convention": "emodnet",
+            "standard_name": "submarine_landslide_activity_type",
+            "description": "",
+            "canonical_units": "",
+            "amip": "",
+            "grib": "",
+            "aliases": [],
+            "variable_family": "geological_events_and_probabilities"
+        },
+        {
+            "Convention": "emodnet",
+            "standard_name": "submarine_volcanoes",
+            "description": "",
+            "canonical_units": "",
+            "amip": "",
+            "grib": "",
+            "aliases": [],
+            "variable_family": "geological_events_and_probabilities"
+        },
+        {
+            "Convention": "emodnet",
+            "standard_name": "volcanic_activity_type",
+            "description": "",
+            "canonical_units": "",
+            "amip": "",
+            "grib": "",
+            "aliases": [],
+            "variable_family": "geological_events_and_probabilities"
+        },
+        {
+            "Convention": "emodnet",
+            "standard_name": "tsunamis",
+            "description": "",
+            "canonical_units": "",
+            "amip": "",
+            "grib": "",
+            "aliases": [],
+            "variable_family": "geological_events_and_probabilities"
+        },
+        {
+            "Convention": "emodnet",
+            "standard_name": "view_of_elaborated_products",
+            "description": "",
+            "canonical_units": "",
+            "amip": "",
+            "grib": "",
+            "aliases": [],
+            "variable_family": "geological_events_and_probabilities"
+        },
+        {
+            "Convention": "emodnet",
+            "standard_name": "coastal_behaviour",
+            "description": "",
+            "canonical_units": "",
+            "amip": "",
+            "grib": "",
+            "aliases": [],
+            "variable_family": "marine_geology"
+        },
+        {
+            "Convention": "emodnet",
+            "standard_name": "earthquakes",
+            "description": "",
+            "canonical_units": "",
+            "amip": "",
+            "grib": "",
+            "aliases": [],
+            "variable_family": "marine_geology"
+        },
+        {
+            "Convention": "emodnet",
+            "standard_name": "geomorphology",
+            "description": "",
+            "canonical_units": "",
+            "amip": "",
+            "grib": "",
+            "aliases": [],
+            "variable_family": "marine_geology"
+        },
+        {
+            "Convention": "emodnet",
+            "standard_name": "geomorphology_lines",
+            "description": "",
+            "canonical_units": "",
+            "amip": "",
+            "grib": "",
+            "aliases": [],
+            "variable_family": "marine_geology"
+        },
+        {
+            "Convention": "emodnet",
+            "standard_name": "physiographic_features",
+            "description": "",
+            "canonical_units": "",
+            "amip": "",
+            "grib": "",
+            "aliases": [],
+            "variable_family": "marine_geology"
+        },
+        {
+            "Convention": "emodnet",
+            "standard_name": "pre_quaternary_faults",
+            "description": "",
+            "canonical_units": "",
+            "amip": "",
+            "grib": "",
+            "aliases": [],
+            "variable_family": "marine_geology"
+        },
+        {
+            "Convention": "emodnet",
+            "standard_name": "pre_quaternary_geology_age",
+            "description": "",
+            "canonical_units": "",
+            "amip": "",
+            "grib": "",
+            "aliases": [],
+            "variable_family": "marine_geology"
+        },
+        {
+            "Convention": "emodnet",
+            "standard_name": "pre_quaternary_lithology",
+            "description": "",
+            "canonical_units": "",
+            "amip": "",
+            "grib": "",
+            "aliases": [],
+            "variable_family": "marine_geology"
+        },
+        {
+            "Convention": "emodnet",
+            "standard_name": "quaternary_geology_age",
+            "description": "",
+            "canonical_units": "",
+            "amip": "",
+            "grib": "",
+            "aliases": [],
+            "variable_family": "marine_geology"
+        },
+        {
+            "Convention": "emodnet",
+            "standard_name": "quaternary_geology_lithology",
+            "description": "",
+            "canonical_units": "",
+            "amip": "",
+            "grib": "",
+            "aliases": [],
+            "variable_family": "marine_geology"
+        },
+        {
+            "Convention": "emodnet",
+            "standard_name": "quaternary_tectonics",
+            "description": "",
+            "canonical_units": "",
+            "amip": "",
+            "grib": "",
+            "aliases": [],
+            "variable_family": "marine_geology"
+        },
+        {
+            "Convention": "emodnet",
+            "standard_name": "seabed_substrate",
+            "description": "",
+            "canonical_units": "",
+            "amip": "",
+            "grib": "",
+            "aliases": [],
+            "variable_family": "marine_geology"
+        },
+        {
+            "Convention": "emodnet",
+            "standard_name": "folk_5_seabed_substrate_class",
+            "description": "",
+            "canonical_units": "",
+            "amip": "",
+            "grib": "",
+            "aliases": [],
+            "variable_family": "marine_geology"
+        },
+        {
+            "Convention": "emodnet",
+            "standard_name": "folk_sediment_class_boundaries_distinction",
+            "description": "",
+            "canonical_units": "",
+            "amip": "",
+            "grib": "",
+            "aliases": [],
+            "variable_family": "marine_geology"
+        },
+        {
+            "Convention": "emodnet",
+            "standard_name": "folk_sediment_class_amount_of_sampling",
+            "description": "",
+            "canonical_units": "",
+            "amip": "",
+            "grib": "",
+            "aliases": [],
+            "variable_family": "marine_geology"
+        },
+        {
+            "Convention": "emodnet",
+            "standard_name": "folk_sediment_class_remote_sensing_coverage",
+            "description": "",
+            "canonical_units": "",
+            "amip": "",
+            "grib": "",
+            "aliases": [],
+            "variable_family": "marine_geology"
+        },
+        {
+            "Convention": "emodnet",
+            "standard_name": "folk_7_seabed_substrate_class",
+            "description": "",
+            "canonical_units": "",
+            "amip": "",
+            "grib": "",
+            "aliases": [],
+            "variable_family": "marine_geology"
+        },
+        {
+            "Convention": "emodnet",
+            "standard_name": "folk_16_seabed_substrate_class",
+            "description": "",
+            "canonical_units": "",
+            "amip": "",
+            "grib": "",
+            "aliases": [],
+            "variable_family": "marine_geology"
+        },
+        {
+            "Convention": "emodnet",
+            "standard_name": "submerged_landscapes",
+            "description": "",
+            "canonical_units": "",
+            "amip": "",
+            "grib": "",
+            "aliases": [],
+            "variable_family": "marine_geology"
+        },
+        {
+            "Convention": "emodnet",
+            "standard_name": "marine_aggregates",
+            "description": "",
+            "canonical_units": "",
+            "amip": "",
+            "grib": "",
+            "aliases": [],
+            "variable_family": "marine_minerals"
+        },
+        {
+            "Convention": "emodnet",
+            "standard_name": "marine_aggregates_deposit_type",
+            "description": "",
+            "canonical_units": "",
+            "amip": "",
+            "grib": "",
+            "aliases": [],
+            "variable_family": "marine_minerals"
+        },
+        {
+            "Convention": "emodnet",
+            "standard_name": "marine_aggregates_economic_feasibility",
+            "description": "",
+            "canonical_units": "",
+            "amip": "",
+            "grib": "",
+            "aliases": [],
+            "variable_family": "marine_minerals"
+        },
+        {
+            "Convention": "emodnet",
+            "standard_name": "marine_critical_minerals",
+            "description": "",
+            "canonical_units": "",
+            "amip": "",
+            "grib": "",
+            "aliases": [],
+            "variable_family": "marine_minerals"
+        },
+        {
+            "Convention": "emodnet",
+            "standard_name": "marine_hydrocarbon_and_hydrates",
+            "description": "",
+            "canonical_units": "",
+            "amip": "",
+            "grib": "",
+            "aliases": [],
+            "variable_family": "marine_minerals"
+        },
+        {
+            "Convention": "emodnet",
+            "standard_name": "marine_hydrocarbon_sub_deposits",
+            "description": "",
+            "canonical_units": "",
+            "amip": "",
+            "grib": "",
+            "aliases": [],
+            "variable_family": "marine_minerals"
+        },
+        {
+            "Convention": "emodnet",
+            "standard_name": "marine_non_critical_minerals",
+            "description": "",
+            "canonical_units": "",
+            "amip": "",
+            "grib": "",
+            "aliases": [],
+            "variable_family": "marine_minerals"
+        },
+        {
+            "Convention": "emodnet",
+            "standard_name": "",
+            "description": "",
+            "canonical_units": "",
+            "amip": "",
+            "grib": "",
+            "aliases": [],
+            "variable_family": "cultural_heritage"
+        },
+        {
+            "Convention": "emodnet",
+            "standard_name": "fish_quotas",
+            "description": "",
+            "canonical_units": "",
+            "amip": "",
+            "grib": "",
+            "aliases": [],
+            "variable_family": "fisheries"
+        },
+        {
+            "Convention": "emodnet",
+            "standard_name": "aggregate_extraction",
+            "description": "",
+            "canonical_units": "",
+            "amip": "",
+            "grib": "",
+            "aliases": [],
+            "variable_family": "human_marine_activities"
+        },
+        {
+            "Convention": "emodnet",
+            "standard_name": "marine_aggregate_extraction_areas_status",
+            "description": "",
+            "canonical_units": "",
+            "amip": "",
+            "grib": "",
+            "aliases": [],
+            "variable_family": "human_marine_activities"
+        },
+        {
+            "Convention": "emodnet",
+            "standard_name": "marine_aggregate_extraction_areas_site_type",
+            "description": "",
+            "canonical_units": "",
+            "amip": "",
+            "grib": "",
+            "aliases": [],
+            "variable_family": "human_marine_activities"
+        },
+        {
+            "Convention": "emodnet",
+            "standard_name": "algae_production",
+            "description": "",
+            "canonical_units": "",
+            "amip": "",
+            "grib": "",
+            "aliases": [],
+            "variable_family": "human_marine_activities"
+        },
+        {
+            "Convention": "emodnet",
+            "standard_name": "aquaculture",
+            "description": "",
+            "canonical_units": "",
+            "amip": "",
+            "grib": "",
+            "aliases": [],
+            "variable_family": "human_marine_activities"
+        },
+        {
+            "Convention": "emodnet",
+            "standard_name": "cables",
+            "description": "",
+            "canonical_units": "",
+            "amip": "",
+            "grib": "",
+            "aliases": [],
+            "variable_family": "human_marine_activities"
+        },
+        {
+            "Convention": "emodnet",
+            "standard_name": "cultural_heritage",
+            "description": "",
+            "canonical_units": "",
+            "amip": "",
+            "grib": "",
+            "aliases": [],
+            "variable_family": "human_marine_activities"
+        },
+        {
+            "Convention": "emodnet",
+            "standard_name": "shipwreck_object_description",
+            "description": "",
+            "canonical_units": "",
+            "amip": "",
+            "grib": "",
+            "aliases": [],
+            "variable_family": "human_marine_activities"
+        },
+        {
+            "Convention": "emodnet",
+            "standard_name": "shipwreck_object_type",
+            "description": "",
+            "canonical_units": "",
+            "amip": "",
+            "grib": "",
+            "aliases": [],
+            "variable_family": "human_marine_activities"
+        },
+        {
+            "Convention": "emodnet",
+            "standard_name": "shipwreck_maximum_depth",
+            "description": "",
+            "canonical_units": "",
+            "amip": "",
+            "grib": "",
+            "aliases": [],
+            "variable_family": "human_marine_activities"
+        },
+        {
+            "Convention": "emodnet",
+            "standard_name": "desalination",
+            "description": "",
+            "canonical_units": "",
+            "amip": "",
+            "grib": "",
+            "aliases": [],
+            "variable_family": "human_marine_activities"
+        },
+        {
+            "Convention": "emodnet",
+            "standard_name": "dredging",
+            "description": "",
+            "canonical_units": "",
+            "amip": "",
+            "grib": "",
+            "aliases": [],
+            "variable_family": "human_marine_activities"
+        },
+        {
+            "Convention": "emodnet",
+            "standard_name": "energy",
+            "description": "",
+            "canonical_units": "",
+            "amip": "",
+            "grib": "",
+            "aliases": [],
+            "variable_family": "human_marine_activities"
+        },
+        {
+            "Convention": "emodnet",
+            "standard_name": "ocean_energy_projects_start_year",
+            "description": "",
+            "canonical_units": "",
+            "amip": "",
+            "grib": "",
+            "aliases": [],
+            "variable_family": "human_marine_activities"
+        },
+        {
+            "Convention": "emodnet",
+            "standard_name": "ocean_energy_projects_end_year",
+            "description": "",
+            "canonical_units": "",
+            "amip": "",
+            "grib": "",
+            "aliases": [],
+            "variable_family": "human_marine_activities"
+        },
+        {
+            "Convention": "emodnet",
+            "standard_name": "ocean_energy_projects_status",
+            "description": "",
+            "canonical_units": "",
+            "amip": "",
+            "grib": "",
+            "aliases": [],
+            "variable_family": "human_marine_activities"
+        },
+        {
+            "Convention": "emodnet",
+            "standard_name": "ocean_energy_projects_energy_resource",
+            "description": "",
+            "canonical_units": "",
+            "amip": "",
+            "grib": "",
+            "aliases": [],
+            "variable_family": "human_marine_activities"
+        },
+        {
+            "Convention": "emodnet",
+            "standard_name": "fish_catches_by_fao_areas_and_commodity_group",
+            "description": "",
+            "canonical_units": "",
+            "amip": "",
+            "grib": "",
+            "aliases": [],
+            "variable_family": "human_marine_activities"
+        },
+        {
+            "Convention": "emodnet",
+            "standard_name": "fish_catches_by_fao_areas_and_country",
+            "description": "",
+            "canonical_units": "",
+            "amip": "",
+            "grib": "",
+            "aliases": [],
+            "variable_family": "human_marine_activities"
+        },
+        {
+            "Convention": "emodnet",
+            "standard_name": "fisheries",
+            "description": "",
+            "canonical_units": "",
+            "amip": "",
+            "grib": "",
+            "aliases": [],
+            "variable_family": "human_marine_activities"
+        },
+        {
+            "Convention": "emodnet",
+            "standard_name": "fisheries_fishing_effort_by_fao_areas_and_gfcm_subareas",
+            "description": "",
+            "canonical_units": "",
+            "amip": "",
+            "grib": "",
+            "aliases": [],
+            "variable_family": "human_marine_activities"
+        },
+        {
+            "Convention": "emodnet",
+            "standard_name": "fisheries_fishing_intensity",
+            "description": "",
+            "canonical_units": "",
+            "amip": "",
+            "grib": "",
+            "aliases": [],
+            "variable_family": "human_marine_activities"
+        },
+        {
+            "Convention": "emodnet",
+            "standard_name": "fishing_effort_by_fao_areas_gfcm_subareas_and_country",
+            "description": "",
+            "canonical_units": "",
+            "amip": "",
+            "grib": "",
+            "aliases": [],
+            "variable_family": "human_marine_activities"
+        },
+        {
+            "Convention": "emodnet",
+            "standard_name": "fishing_effort_by_fao_areas_gfcm_subareas_and_vessel_type",
+            "description": "",
+            "canonical_units": "",
+            "amip": "",
+            "grib": "",
+            "aliases": [],
+            "variable_family": "human_marine_activities"
+        },
+        {
+            "Convention": "emodnet",
+            "standard_name": "main_ports",
+            "description": "",
+            "canonical_units": "",
+            "amip": "",
+            "grib": "",
+            "aliases": [],
+            "variable_family": "human_marine_activities"
+        },
+        {
+            "Convention": "emodnet",
+            "standard_name": "maritime_spatial_planning",
+            "description": "",
+            "canonical_units": "",
+            "amip": "",
+            "grib": "",
+            "aliases": [],
+            "variable_family": "human_marine_activities"
+        },
+        {
+            "Convention": "emodnet",
+            "standard_name": "military_areas",
+            "description": "",
+            "canonical_units": "",
+            "amip": "",
+            "grib": "",
+            "aliases": [],
+            "variable_family": "human_marine_activities"
+        },
+        {
+            "Convention": "emodnet",
+            "standard_name": "oil_and_gas",
+            "description": "",
+            "canonical_units": "",
+            "amip": "",
+            "grib": "",
+            "aliases": [],
+            "variable_family": "human_marine_activities"
+        },
+        {
+            "Convention": "emodnet",
+            "standard_name": "other_forms_of_area_management",
+            "description": "",
+            "canonical_units": "",
+            "amip": "",
+            "grib": "",
+            "aliases": [],
+            "variable_family": "human_marine_activities"
+        },
+        {
+            "Convention": "emodnet",
+            "standard_name": "pipelines",
+            "description": "",
+            "canonical_units": "",
+            "amip": "",
+            "grib": "",
+            "aliases": [],
+            "variable_family": "human_marine_activities"
+        },
+        {
+            "Convention": "emodnet",
+            "standard_name": "protected_areas",
+            "description": "",
+            "canonical_units": "",
+            "amip": "",
+            "grib": "",
+            "aliases": [],
+            "variable_family": "human_marine_activities"
+        },
+        {
+            "Convention": "emodnet",
+            "standard_name": "route_density_annual_totals",
+            "description": "",
+            "canonical_units": "",
+            "amip": "",
+            "grib": "",
+            "aliases": [],
+            "variable_family": "human_marine_activities"
+        },
+        {
+            "Convention": "emodnet",
+            "standard_name": "route_density_monthly_totals",
+            "description": "",
+            "canonical_units": "",
+            "amip": "",
+            "grib": "",
+            "aliases": [],
+            "variable_family": "human_marine_activities"
+        },
+        {
+            "Convention": "emodnet",
+            "standard_name": "route_density_seasonal_totals",
+            "description": "",
+            "canonical_units": "",
+            "amip": "",
+            "grib": "",
+            "aliases": [],
+            "variable_family": "human_marine_activities"
+        },
+        {
+            "Convention": "emodnet",
+            "standard_name": "vessel_density_annual_averages",
+            "description": "",
+            "canonical_units": "",
+            "amip": "",
+            "grib": "",
+            "aliases": [],
+            "variable_family": "human_marine_activities"
+        },
+        {
+            "Convention": "emodnet",
+            "standard_name": "vessel_density_monthly_totals",
+            "description": "",
+            "canonical_units": "",
+            "amip": "",
+            "grib": "",
+            "aliases": [],
+            "variable_family": "human_marine_activities"
+        },
+        {
+            "Convention": "emodnet",
+            "standard_name": "waste_disposal",
+            "description": "",
+            "canonical_units": "",
+            "amip": "",
+            "grib": "",
+            "aliases": [],
+            "variable_family": "human_marine_activities"
+        },
+        {
+            "Convention": "emodnet",
+            "standard_name": "wind_farm_power_mw",
+            "description": "",
+            "canonical_units": "",
+            "amip": "",
+            "grib": "",
+            "aliases": [],
+            "variable_family": "human_marine_activities"
+        },
+        {
+            "Convention": "emodnet",
+            "standard_name": "wind_farm_area_sq_km",
+            "description": "",
+            "canonical_units": "",
+            "amip": "",
+            "grib": "",
+            "aliases": [],
+            "variable_family": "human_marine_activities"
+        },
+        {
+            "Convention": "emodnet",
+            "standard_name": "wind_farm_year",
+            "description": "",
+            "canonical_units": "",
+            "amip": "",
+            "grib": "",
+            "aliases": [],
+            "variable_family": "human_marine_activities"
+        },
+        {
+            "Convention": "emodnet",
+            "standard_name": "river_outflow",
+            "description": "",
+            "canonical_units": "",
+            "amip": "",
+            "grib": "",
+            "aliases": [],
+            "variable_family": "elevation"
+        },
+        {
+            "Convention": "emodnet",
+            "standard_name": "underwater_noise",
+            "description": "",
+            "canonical_units": "",
+            "amip": "",
+            "grib": "",
+            "aliases": [],
+            "variable_family": "noise"
+        },
+        {
+            "Convention": "emodnet",
+            "standard_name": "seabed_and_coastal_wetland_habitats",
+            "description": "",
+            "canonical_units": "",
+            "amip": "",
+            "grib": "",
+            "aliases": [],
+            "variable_family": "individual_habitat_maps_from_surveys"
+        },
+        {
+            "Convention": "emodnet",
+            "standard_name": "oxygen_density_at_the_seabed",
+            "description": "",
+            "canonical_units": "",
+            "amip": "",
+            "grib": "",
+            "aliases": [],
+            "variable_family": "o2"
+        },
+        {
+            "Convention": "emodnet",
+            "standard_name": "composite_data_products_created_by_others",
+            "description": "",
+            "canonical_units": "",
+            "amip": "",
+            "grib": "",
+            "aliases": [],
+            "variable_family": "seabed_habitats"
+        },
+        {
+            "Convention": "emodnet",
+            "standard_name": "environmental_variables_that_influence_habitat_type_ice_cover",
+            "description": "",
+            "canonical_units": "",
+            "amip": "",
+            "grib": "",
+            "aliases": [],
+            "variable_family": "seabed_habitats"
+        },
+        {
+            "Convention": "emodnet",
+            "standard_name": "environmental_variables_that_influence_habitat_type_optical_properties",
+            "description": "",
+            "canonical_units": "",
+            "amip": "",
+            "grib": "",
+            "aliases": [],
+            "variable_family": "seabed_habitats"
+        },
+        {
+            "Convention": "emodnet",
+            "standard_name": "diffuse_attenuation_coefficient_of_downwelling_photosynthetic_photon_flux_in_sea_water",
+            "description": "",
+            "canonical_units": "",
+            "amip": "",
+            "grib": "",
+            "aliases": [],
+            "variable_family": "seabed_habitats"
+        },
+        {
+            "Convention": "emodnet",
+            "standard_name": "essential_ocean_variables",
+            "description": "",
+            "canonical_units": "",
+            "amip": "",
+            "grib": "",
+            "aliases": [],
+            "variable_family": "seabed_habitats"
+        },
+        {
+            "Convention": "emodnet",
+            "standard_name": "individual_habitat_maps_from_surveys_essential_fish_habitats",
+            "description": "",
+            "canonical_units": "",
+            "amip": "",
+            "grib": "",
+            "aliases": [],
+            "variable_family": "seabed_habitats"
+        },
+        {
+            "Convention": "emodnet",
+            "standard_name": "seabed_habitats_maps",
+            "description": "",
+            "canonical_units": "",
+            "amip": "",
+            "grib": "",
+            "aliases": [],
+            "variable_family": "seabed_habitats"
+        },
+        {
+            "Convention": "emodnet",
+            "standard_name": "eunis_seabed_habitat_class_2019",
+            "description": "",
+            "canonical_units": "",
+            "amip": "",
+            "grib": "",
+            "aliases": [],
+            "variable_family": "seabed_habitats"
+        },
+        {
+            "Convention": "emodnet",
+            "standard_name": "marine_strategy_framework_directive_benthic_broad_habitat_type",
+            "description": "",
+            "canonical_units": "",
+            "amip": "",
+            "grib": "",
+            "aliases": [],
+            "variable_family": "seabed_habitats"
+        },
+        {
+            "Convention": "emodnet",
+            "standard_name": "seabed_energy",
+            "description": "",
+            "canonical_units": "",
+            "amip": "",
+            "grib": "",
+            "aliases": [],
+            "variable_family": "seabed_habitats"
+        },
+        {
+            "Convention": "emodnet",
+            "standard_name": "survey_sample_points",
+            "description": "",
+            "canonical_units": "",
+            "amip": "",
+            "grib": "",
+            "aliases": [],
+            "variable_family": "seabed_habitats"
+        },
+        {
+            "Convention": "emodnet",
+            "standard_name": "kinetic_energy_at_the_seabed_due_to_currents",
+            "description": "",
+            "canonical_units": "",
+            "amip": "",
+            "grib": "",
+            "aliases": [],
+            "variable_family": "waves"
+        },
+        {
+            "Convention": "emodnet",
+            "standard_name": "wave_exposure_index_at_the_sea_surface",
+            "description": "",
+            "canonical_units": "",
+            "amip": "",
+            "grib": "",
+            "aliases": [],
+            "variable_family": "waves"
+        },
+        {
+            "Convention": "emodnet",
+            "standard_name": "benthic_invertebrate_biomass_and_diversity",
+            "description": "",
+            "canonical_units": "",
+            "amip": "",
+            "grib": "",
+            "aliases": [],
+            "variable_family": "biodiversity"
+        },
+        {
+            "Convention": "emodnet",
+            "standard_name": "macroalgae_abundance_and_distribution",
+            "description": "",
+            "canonical_units": "",
+            "amip": "",
+            "grib": "",
+            "aliases": [],
+            "variable_family": "biodiversity"
+        },
+        {
+            "Convention": "emodnet",
+            "standard_name": "phytoplankton_biomass_and_diversity",
+            "description": "",
+            "canonical_units": "",
+            "amip": "",
+            "grib": "",
+            "aliases": [],
+            "variable_family": "biodiversity"
+        },
+        {
+            "Convention": "emodnet",
+            "standard_name": "marine_turtle_bird_and_mammal_abundance_and_distribution",
+            "description": "",
+            "canonical_units": "",
+            "amip": "",
+            "grib": "",
+            "aliases": [],
+            "variable_family": "biodiversity"
+        },
+        {
+            "Convention": "emodnet",
+            "standard_name": "mixoplankton_biomass_and_diversity",
+            "description": "",
+            "canonical_units": "",
+            "amip": "",
+            "grib": "",
+            "aliases": [],
+            "variable_family": "biodiversity"
+        },
+        {
+            "Convention": "emodnet",
+            "standard_name": "ice_concentation",
+            "description": "",
+            "canonical_units": "",
+            "amip": "",
+            "grib": "",
+            "aliases": [],
+            "variable_family": "ice_cover"
+        },
+        {
+            "Convention": "emodnet",
+            "standard_name": "oxygen_density",
+            "description": "",
+            "canonical_units": "",
+            "amip": "",
+            "grib": "",
+            "aliases": [],
+            "variable_family": "o2"
+        },
+        {
+            "Convention": "emodnet",
+            "standard_name": "light",
+            "description": "",
+            "canonical_units": "",
+            "amip": "",
+            "grib": "",
+            "aliases": [],
+            "variable_family": "optical_properties"
+        },
+        {
+            "Convention": "emodnet",
+            "standard_name": "water_clarity",
+            "description": "",
+            "canonical_units": "",
+            "amip": "",
+            "grib": "",
+            "aliases": [],
+            "variable_family": "optical_properties"
+        },
+        {
+            "Convention": "emodnet",
+            "standard_name": "broad_scale_habitat_maps",
+            "description": "",
+            "canonical_units": "",
+            "amip": "",
+            "grib": "",
+            "aliases": [],
+            "variable_family": "seabed_habitats"
+        },
+        {
+            "Convention": "emodnet",
+            "standard_name": "collection_of_classified_points",
+            "description": "",
+            "canonical_units": "",
+            "amip": "",
+            "grib": "",
+            "aliases": [],
+            "variable_family": "seabed_habitats"
+        },
+        {
+            "Convention": "emodnet",
+            "standard_name": "composite_data_products",
+            "description": "",
+            "canonical_units": "",
+            "amip": "",
+            "grib": "",
+            "aliases": [],
+            "variable_family": "seabed_habitats"
+        },
+        {
+            "Convention": "emodnet",
+            "standard_name": "individual_habitat_maps_from_surveys_seabed_and_coastal_wetland_habitats",
+            "description": "",
+            "canonical_units": "",
+            "amip": "",
+            "grib": "",
+            "aliases": [],
+            "variable_family": "seabed_habitats"
+        },
+        {
+            "Convention": "emodnet",
+            "standard_name": "kinetic_energy_at_seabed_due_to_waves",
+            "description": "",
+            "canonical_units": "",
+            "amip": "",
+            "grib": "",
+            "aliases": [],
+            "variable_family": "waves"
+        },
+        {
+            "Convention": "emodnet",
+            "standard_name": "biological_zone",
+            "description": "",
+            "canonical_units": "",
+            "amip": "",
+            "grib": "",
+            "aliases": [],
+            "variable_family": "seabed_habitats"
+        },
+        {
+            "Convention": "emodnet",
+            "standard_name": "euseamap_classification",
+            "description": "",
+            "canonical_units": "",
+            "amip": "",
+            "grib": "",
+            "aliases": [],
+            "variable_family": "seabed_habitats"
+        },
+        {
+            "Convention": "emodnet",
+            "standard_name": "eunis_2022_level_2_classification",
+            "description": "",
+            "canonical_units": "",
+            "amip": "",
+            "grib": "",
+            "aliases": [],
+            "variable_family": "seabed_habitats"
+        },
+        {
+            "Convention": "emodnet",
+            "standard_name": "msfd_benthic_broad_habitat_types",
+            "description": "",
+            "canonical_units": "",
+            "amip": "",
+            "grib": "",
+            "aliases": [],
+            "variable_family": "seabed_habitats"
+        },
+        {
+            "Convention": "emodnet",
+            "standard_name": "iberian_ke_wave",
+            "description": "",
+            "canonical_units": "",
+            "amip": "",
+            "grib": "",
+            "aliases": [],
+            "variable_family": "waves"
+        },
+        {
+            "Convention": "emodnet",
+            "standard_name": "ke_currents_portugal_conf",
+            "description": "",
+            "canonical_units": "",
+            "amip": "",
+            "grib": "",
+            "aliases": [],
+            "variable_family": "currents"
+        },
+        {
+            "Convention": "emodnet",
+            "standard_name": "ke_currents_iberian_se_mesh_atlantic_maretec",
+            "description": "",
+            "canonical_units": "",
+            "amip": "",
+            "grib": "",
+            "aliases": [],
+            "variable_family": "currents"
+        },
+        {
+            "Convention": "emodnet",
+            "standard_name": "ke_currents_adriatic_conf",
+            "description": "",
+            "canonical_units": "",
+            "amip": "",
+            "grib": "",
+            "aliases": [],
+            "variable_family": "currents"
+        },
+        {
+            "Convention": "emodnet",
+            "standard_name": "ke_currents_adriatic",
+            "description": "",
+            "canonical_units": "",
+            "amip": "",
+            "grib": "",
+            "aliases": [],
+            "variable_family": "currents"
+        },
+        {
+            "Convention": "emodnet",
+            "standard_name": "ke_currents_blacksea_conf",
+            "description": "",
+            "canonical_units": "",
+            "amip": "",
+            "grib": "",
+            "aliases": [],
+            "variable_family": "currents"
+        },
+        {
+            "Convention": "emodnet",
+            "standard_name": "ke_currents_blacksea",
+            "description": "",
+            "canonical_units": "",
+            "amip": "",
+            "grib": "",
+            "aliases": [],
+            "variable_family": "currents"
+        },
+        {
+            "Convention": "emodnet",
+            "standard_name": "ke_currents_atlantic_conf",
+            "description": "",
+            "canonical_units": "",
+            "amip": "",
+            "grib": "",
+            "aliases": [],
+            "variable_family": "currents"
+        },
+        {
+            "Convention": "emodnet",
+            "standard_name": "ke_currents_manga2500_2010_2015",
+            "description": "",
+            "canonical_units": "",
+            "amip": "",
+            "grib": "",
+            "aliases": [],
+            "variable_family": "currents"
+        },
+        {
+            "Convention": "emodnet",
+            "standard_name": "ke_currents_atlantic",
+            "description": "",
+            "canonical_units": "",
+            "amip": "",
+            "grib": "",
+            "aliases": [],
+            "variable_family": "currents"
+        },
+        {
+            "Convention": "emodnet",
+            "standard_name": "mean_of_annual_90th_percentile_kinetic_energy_values_between_2010_and_2015_n_s_m2",
+            "description": "",
+            "canonical_units": "",
+            "amip": "",
+            "grib": "",
+            "aliases": [],
+            "variable_family": "currents"
+        },
+        {
+            "Convention": "emodnet",
+            "standard_name": "ke_currents_biscay_conf",
+            "description": "",
+            "canonical_units": "",
+            "amip": "",
+            "grib": "",
+            "aliases": [],
+            "variable_family": "currents"
+        },
+        {
+            "Convention": "emodnet",
+            "standard_name": "mediterranean_ke_currents",
+            "description": "",
+            "canonical_units": "",
+            "amip": "",
+            "grib": "",
+            "aliases": [],
+            "variable_family": "currents"
+        },
+        {
+            "Convention": "emodnet",
+            "standard_name": "ke_currents_med_conf",
+            "description": "",
+            "canonical_units": "",
+            "amip": "",
+            "grib": "",
+            "aliases": [],
+            "variable_family": "currents"
+        },
+        {
+            "Convention": "emodnet",
+            "standard_name": "ke_currents_iberian_be_mesh_atlantic_maretec",
+            "description": "",
+            "canonical_units": "",
+            "amip": "",
+            "grib": "",
+            "aliases": [],
+            "variable_family": "currents"
+        },
+        {
+            "Convention": "emodnet",
+            "standard_name": "macaronesia_ke_currents",
+            "description": "",
+            "canonical_units": "",
+            "amip": "",
+            "grib": "",
+            "aliases": [],
+            "variable_family": "currents"
+        },
+        {
+            "Convention": "emodnet",
+            "standard_name": "ice_concentration_svalbard_2018",
+            "description": "",
+            "canonical_units": "",
+            "amip": "",
+            "grib": "",
+            "aliases": [],
+            "variable_family": "ice_cover"
+        },
+        {
+            "Convention": "emodnet",
+            "standard_name": "black_sea_density",
+            "description": "",
+            "canonical_units": "",
+            "amip": "",
+            "grib": "",
+            "aliases": [],
+            "variable_family": "o2"
+        },
+        {
+            "Convention": "emodnet",
+            "standard_name": "kdpar_all_europe",
+            "description": "",
+            "canonical_units": "",
+            "amip": "",
+            "grib": "",
+            "aliases": [],
+            "variable_family": "optical_properties"
+        },
+        {
+            "Convention": "emodnet",
+            "standard_name": "seabed_par_all_europe_2005_2009",
+            "description": "",
+            "canonical_units": "",
+            "amip": "",
+            "grib": "",
+            "aliases": [],
+            "variable_family": "optical_properties"
+        },
+        {
+            "Convention": "emodnet",
+            "standard_name": "baltic_secchi_disk_depth_ratio",
+            "description": "",
+            "canonical_units": "",
+            "amip": "",
+            "grib": "",
+            "aliases": [],
+            "variable_family": "optical_properties"
+        },
+        {
+            "Convention": "emodnet",
+            "standard_name": "conf_secchi_depth_ratio",
+            "description": "",
+            "canonical_units": "",
+            "amip": "",
+            "grib": "",
+            "aliases": [],
+            "variable_family": "optical_properties"
+        },
+        {
+            "Convention": "emodnet",
+            "standard_name": "biozone",
+            "description": "",
+            "canonical_units": "",
+            "amip": "",
+            "grib": "",
+            "aliases": [],
+            "variable_family": "seabed_habitats"
+        },
+        {
+            "Convention": "emodnet",
+            "standard_name": "substrate",
+            "description": "",
+            "canonical_units": "",
+            "amip": "",
+            "grib": "",
+            "aliases": [],
+            "variable_family": "seabed_habitats"
+        },
+        {
+            "Convention": "emodnet",
+            "standard_name": "allcombd",
+            "description": "",
+            "canonical_units": "",
+            "amip": "",
+            "grib": "",
+            "aliases": [],
+            "variable_family": "seabed_habitats"
+        },
+        {
+            "Convention": "emodnet",
+            "standard_name": "msfd_bbht",
+            "description": "",
+            "canonical_units": "",
+            "amip": "",
+            "grib": "",
+            "aliases": [],
+            "variable_family": "seabed_habitats"
+        },
+        {
+            "Convention": "emodnet",
+            "standard_name": "all2019dl2",
+            "description": "",
+            "canonical_units": "",
+            "amip": "",
+            "grib": "",
+            "aliases": [],
+            "variable_family": "seabed_habitats"
+        },
+        {
+            "Convention": "emodnet",
+            "standard_name": "calanus_helgolandicus_and_finmarchicus_temporal_change",
+            "description": "",
+            "canonical_units": "",
+            "amip": "",
+            "grib": "",
+            "aliases": [],
+            "variable_family": "abundance"
+        },
+        {
+            "Convention": "emodnet",
+            "standard_name": "contaminants_in_marine_organisms",
+            "description": "",
+            "canonical_units": "",
+            "amip": "",
+            "grib": "",
+            "aliases": [],
+            "variable_family": "contaminants"
+        },
+        {
+            "Convention": "emodnet",
+            "standard_name": "average_diffuse_attenuation_coefficient_of_photosynthetic_active_radiation_kdpar_between_2005_and_2009_metres_1",
+            "description": "",
+            "canonical_units": "",
+            "amip": "",
+            "grib": "",
+            "aliases": [],
+            "variable_family": "optical_properties"
+        },
+        {
+            "Convention": "emodnet",
+            "standard_name": "eunis2019c",
+            "description": "",
+            "canonical_units": "",
+            "amip": "",
+            "grib": "",
+            "aliases": [],
+            "variable_family": "seabed_habitats"
+        },
+        {
+            "Convention": "emodnet",
+            "standard_name": "regionald",
+            "description": "",
+            "canonical_units": "",
+            "amip": "",
+            "grib": "",
+            "aliases": [],
+            "variable_family": "seabed_habitats"
+        },
+        {
+            "Convention": "emodnet",
+            "standard_name": "salinity",
+            "description": "",
+            "canonical_units": "",
+            "amip": "",
+            "grib": "",
+            "aliases": [],
+            "variable_family": "seabed_habitats"
+        },
+        {
+            "Convention": "emodnet",
+            "standard_name": "salcombd",
+            "description": "",
+            "canonical_units": "",
+            "amip": "",
+            "grib": "",
+            "aliases": [],
+            "variable_family": "seabed_habitats"
+        },
+        {
+            "Convention": "emodnet",
+            "standard_name": "oxygen",
+            "description": "",
+            "canonical_units": "",
+            "amip": "",
+            "grib": "",
+            "aliases": [],
+            "variable_family": "seabed_habitats"
+        },
+        {
+            "Convention": "emodnet",
+            "standard_name": "euniscomb",
+            "description": "",
+            "canonical_units": "",
+            "amip": "",
+            "grib": "",
+            "aliases": [],
+            "variable_family": "seabed_habitats"
+        },
+        {
+            "Convention": "emodnet",
+            "standard_name": "ke_wave_portugal_conf",
+            "description": "",
+            "canonical_units": "",
+            "amip": "",
+            "grib": "",
+            "aliases": [],
+            "variable_family": "waves"
+        },
+        {
+            "Convention": "emodnet",
+            "standard_name": "ke_wave_iberian_mesh_atlantic_maretec",
+            "description": "",
+            "canonical_units": "",
+            "amip": "",
+            "grib": "",
+            "aliases": [],
+            "variable_family": "waves"
+        },
+        {
+            "Convention": "emodnet",
+            "standard_name": "ke_waves_atlantic",
+            "description": "",
+            "canonical_units": "",
+            "amip": "",
+            "grib": "",
+            "aliases": [],
+            "variable_family": "waves"
+        },
+        {
+            "Convention": "emodnet",
+            "standard_name": "ke_waves_nc_conf",
+            "description": "",
+            "canonical_units": "",
+            "amip": "",
+            "grib": "",
+            "aliases": [],
+            "variable_family": "waves"
+        },
+        {
+            "Convention": "emodnet",
+            "standard_name": "ke_wave_azores_maretec",
+            "description": "",
+            "canonical_units": "",
+            "amip": "",
+            "grib": "",
+            "aliases": [],
+            "variable_family": "waves"
+        },
+        {
+            "Convention": "emodnet",
+            "standard_name": "ke_wave_azores_conf",
+            "description": "",
+            "canonical_units": "",
+            "amip": "",
+            "grib": "",
+            "aliases": [],
+            "variable_family": "waves"
+        },
+        {
+            "Convention": "emodnet",
+            "standard_name": "ke_wave_biscayncchan_conf",
+            "description": "",
+            "canonical_units": "",
+            "amip": "",
+            "grib": "",
+            "aliases": [],
+            "variable_family": "waves"
+        },
+        {
+            "Convention": "emodnet",
+            "standard_name": "ke_wave_homere_ubr_2010_2015",
+            "description": "",
+            "canonical_units": "",
+            "amip": "",
+            "grib": "",
+            "aliases": [],
+            "variable_family": "waves"
+        },
+        {
+            "Convention": "emodnet",
+            "standard_name": "ke_waves_blacksea_conf",
+            "description": "",
+            "canonical_units": "",
+            "amip": "",
+            "grib": "",
+            "aliases": [],
+            "variable_family": "waves"
+        },
+        {
+            "Convention": "emodnet",
+            "standard_name": "black_sea_ke_wave",
+            "description": "",
+            "canonical_units": "",
+            "amip": "",
+            "grib": "",
+            "aliases": [],
+            "variable_family": "waves"
+        },
+        {
+            "Convention": "emodnet",
+            "standard_name": "ke_waves_ibmnwm_conf",
+            "description": "",
+            "canonical_units": "",
+            "amip": "",
+            "grib": "",
+            "aliases": [],
+            "variable_family": "waves"
+        },
+        {
+            "Convention": "emodnet",
+            "standard_name": "macaronesia_ke_wave",
+            "description": "",
+            "canonical_units": "",
+            "amip": "",
+            "grib": "",
+            "aliases": [],
+            "variable_family": "waves"
+        },
+        {
+            "Convention": "emodnet",
+            "standard_name": "baltic_wei_swm_with_wh1",
+            "description": "",
+            "canonical_units": "",
+            "amip": "",
+            "grib": "",
+            "aliases": [],
+            "variable_family": "waves"
+        },
+        {
+            "Convention": "emodnet",
+            "standard_name": "ke_currents_manga500_2010_2015",
+            "description": "",
+            "canonical_units": "",
+            "amip": "",
+            "grib": "",
+            "aliases": [],
+            "variable_family": "currents"
+        },
+        {
+            "Convention": "emodnet",
+            "standard_name": "confidence_in_kinetic_energy_values_at_the_seabed_due_to_ocean_currents_along_the_portuguese_coasts",
+            "description": "",
+            "canonical_units": "",
+            "amip": "",
+            "grib": "",
+            "aliases": [],
+            "variable_family": "currents"
+        },
+        {
+            "Convention": "emodnet",
+            "standard_name": "mean_of_annual_90th_percentile_kinetic_energy_values_between_2016_and_2018_along_the_portuguese_coasts_n_s_m2",
+            "description": "",
+            "canonical_units": "",
+            "amip": "",
+            "grib": "",
+            "aliases": [],
+            "variable_family": "currents"
+        },
+        {
+            "Convention": "emodnet",
+            "standard_name": "confidence_in_kinetic_energy_at_the_seabed_due_to_ocean_currents_in_the_adriatic",
+            "description": "",
+            "canonical_units": "",
+            "amip": "",
+            "grib": "",
+            "aliases": [],
+            "variable_family": "currents"
+        },
+        {
+            "Convention": "emodnet",
+            "standard_name": "mean_of_annual_90th_percentile_kinetic_energy_values_at_the_seabed_due_to_ocean_currents_in_the_adriatic_n_s_m2",
+            "description": "",
+            "canonical_units": "",
+            "amip": "",
+            "grib": "",
+            "aliases": [],
+            "variable_family": "currents"
+        },
+        {
+            "Convention": "emodnet",
+            "standard_name": "confidence_in_kinetic_energy_values_at_the_seabed_due_to_ocean_currents_in_the_black_sea",
+            "description": "",
+            "canonical_units": "",
+            "amip": "",
+            "grib": "",
+            "aliases": [],
+            "variable_family": "currents"
+        },
+        {
+            "Convention": "emodnet",
+            "standard_name": "mean_of_annual_90th_percentile_kinetic_energy_values_between_2016_and_2018_n_s_m2",
+            "description": "",
+            "canonical_units": "",
+            "amip": "",
+            "grib": "",
+            "aliases": [],
+            "variable_family": "currents"
+        },
+        {
+            "Convention": "emodnet",
+            "standard_name": "confidence_in_kinetic_energy_values_at_the_seabed_due_to_ocean_currents_in_the_celtic_sea_and_channel",
+            "description": "",
+            "canonical_units": "",
+            "amip": "",
+            "grib": "",
+            "aliases": [],
+            "variable_family": "currents"
+        },
+        {
+            "Convention": "emodnet",
+            "standard_name": "confidence_in_kinetic_energy_values_at_the_seabed_due_to_ocean_currents_in_the_celtic_sea_and_north_sea",
+            "description": "",
+            "canonical_units": "",
+            "amip": "",
+            "grib": "",
+            "aliases": [],
+            "variable_family": "currents"
+        },
+        {
+            "Convention": "emodnet",
+            "standard_name": "mean_of_annual_90th_percentile_kinetic_energy_values_in_the_atlantic_n_s_m2",
+            "description": "",
+            "canonical_units": "",
+            "amip": "",
+            "grib": "",
+            "aliases": [],
+            "variable_family": "currents"
+        },
+        {
+            "Convention": "emodnet",
+            "standard_name": "confidence_in_kinetic_energy_values_at_the_seabed_due_to_ocean_currents_in_the_channel_and_bay_of_biscay",
+            "description": "",
+            "canonical_units": "",
+            "amip": "",
+            "grib": "",
+            "aliases": [],
+            "variable_family": "currents"
+        },
+        {
+            "Convention": "emodnet",
+            "standard_name": "mean_of_annual_90th_percentile_kinetic_energy_values_between_2016_and_2018_in_the_mediterranean_n_s_m2",
+            "description": "",
+            "canonical_units": "",
+            "amip": "",
+            "grib": "",
+            "aliases": [],
+            "variable_family": "currents"
+        },
+        {
+            "Convention": "emodnet",
+            "standard_name": "confidence_in_kinetic_energy_values_at_the_seabed_due_to_ocean_currents_in_the_mediterranean",
+            "description": "",
+            "canonical_units": "",
+            "amip": "",
+            "grib": "",
+            "aliases": [],
+            "variable_family": "currents"
+        },
+        {
+            "Convention": "emodnet",
+            "standard_name": "mean_of_annual_90th_percentile_kinetic_energy_values_in_the_iberian_peninsula_n_s_m2",
+            "description": "",
+            "canonical_units": "",
+            "amip": "",
+            "grib": "",
+            "aliases": [],
+            "variable_family": "currents"
+        },
+        {
+            "Convention": "emodnet",
+            "standard_name": "mean_of_annual_90th_percentile_kinetic_energy_values_between_2016_and_2018_in_macronesia_n_s_m2",
+            "description": "",
+            "canonical_units": "",
+            "amip": "",
+            "grib": "",
+            "aliases": [],
+            "variable_family": "currents"
+        },
+        {
+            "Convention": "emodnet",
+            "standard_name": "average_daily_ice_concentration_observation_values_in_2018",
+            "description": "",
+            "canonical_units": "",
+            "amip": "",
+            "grib": "",
+            "aliases": [],
+            "variable_family": "ice_cover"
+        },
+        {
+            "Convention": "emodnet",
+            "standard_name": "average_oxygen_density_at_the_seabottom_in_the_black_sea",
+            "description": "",
+            "canonical_units": "",
+            "amip": "",
+            "grib": "",
+            "aliases": [],
+            "variable_family": "o2"
+        },
+        {
+            "Convention": "emodnet",
+            "standard_name": "secchi_disk_depth_ratio",
+            "description": "",
+            "canonical_units": "",
+            "amip": "",
+            "grib": "",
+            "aliases": [],
+            "variable_family": "optical_properties"
+        },
+        {
+            "Convention": "emodnet",
+            "standard_name": "confidence_in_secchi_disk_depth_ratio",
+            "description": "",
+            "canonical_units": "",
+            "amip": "",
+            "grib": "",
+            "aliases": [],
+            "variable_family": "optical_properties"
+        },
+        {
+            "Convention": "emodnet",
+            "standard_name": "caribbean_seamap_2023_biological_zone",
+            "description": "",
+            "canonical_units": "",
+            "amip": "",
+            "grib": "",
+            "aliases": [],
+            "variable_family": "seabed_habitats"
+        },
+        {
+            "Convention": "emodnet",
+            "standard_name": "caribbean_seamap_2023_seabed_substrate_type",
+            "description": "",
+            "canonical_units": "",
+            "amip": "",
+            "grib": "",
+            "aliases": [],
+            "variable_family": "seabed_habitats"
+        },
+        {
+            "Convention": "emodnet",
+            "standard_name": "caribbean_seamap_2023_euseamap_classification",
+            "description": "",
+            "canonical_units": "",
+            "amip": "",
+            "grib": "",
+            "aliases": [],
+            "variable_family": "seabed_habitats"
+        },
+        {
+            "Convention": "emodnet",
+            "standard_name": "caribbean_seamap_2023_msfd_benthic_broad_habitat_types",
+            "description": "",
+            "canonical_units": "",
+            "amip": "",
+            "grib": "",
+            "aliases": [],
+            "variable_family": "seabed_habitats"
+        },
+        {
+            "Convention": "emodnet",
+            "standard_name": "caribbean_seamap_2023_eunis_2022_level_2_classificaion",
+            "description": "",
+            "canonical_units": "",
+            "amip": "",
+            "grib": "",
+            "aliases": [],
+            "variable_family": "seabed_habitats"
+        },
+        {
+            "Convention": "emodnet",
+            "standard_name": "caspian_seamap_2023_biological_zone",
+            "description": "",
+            "canonical_units": "",
+            "amip": "",
+            "grib": "",
+            "aliases": [],
+            "variable_family": "seabed_habitats"
+        },
+        {
+            "Convention": "emodnet",
+            "standard_name": "caspian_seamap_2023_seabed_substrate_type",
+            "description": "",
+            "canonical_units": "",
+            "amip": "",
+            "grib": "",
+            "aliases": [],
+            "variable_family": "seabed_habitats"
+        },
+        {
+            "Convention": "emodnet",
+            "standard_name": "caspian_seamap_2023_euseamap_classification",
+            "description": "",
+            "canonical_units": "",
+            "amip": "",
+            "grib": "",
+            "aliases": [],
+            "variable_family": "seabed_habitats"
+        },
+        {
+            "Convention": "emodnet",
+            "standard_name": "caspian_seamap_2023_msfd_benthic_broad_habitat_types",
+            "description": "",
+            "canonical_units": "",
+            "amip": "",
+            "grib": "",
+            "aliases": [],
+            "variable_family": "seabed_habitats"
+        },
+        {
+            "Convention": "emodnet",
+            "standard_name": "caspian_seamap_2023_eunis_2022_level_2_classificaion",
+            "description": "",
+            "canonical_units": "",
+            "amip": "",
+            "grib": "",
+            "aliases": [],
+            "variable_family": "seabed_habitats"
+        },
+        {
+            "Convention": "emodnet",
+            "standard_name": "euseamap_2023_biological_zone",
+            "description": "",
+            "canonical_units": "",
+            "amip": "",
+            "grib": "",
+            "aliases": [],
+            "variable_family": "seabed_habitats"
+        },
+        {
+            "Convention": "emodnet",
+            "standard_name": "euseamap_2023_oxygenation_level_at_the_seabed_black_sea_only",
+            "description": "",
+            "canonical_units": "",
+            "amip": "",
+            "grib": "",
+            "aliases": [],
+            "variable_family": "seabed_habitats"
+        },
+        {
+            "Convention": "emodnet",
+            "standard_name": "euseamap_2023_combined_current_and_wave_induced_energy_at_the_seabed",
+            "description": "",
+            "canonical_units": "",
+            "amip": "",
+            "grib": "",
+            "aliases": [],
+            "variable_family": "seabed_habitats"
+        },
+        {
+            "Convention": "emodnet",
+            "standard_name": "euseamap_2023_seabed_substrate_type",
+            "description": "",
+            "canonical_units": "",
+            "amip": "",
+            "grib": "",
+            "aliases": [],
+            "variable_family": "seabed_habitats"
+        },
+        {
+            "Convention": "emodnet",
+            "standard_name": "photosynthetic_active_radiation_par_reaching_the_seabed_between_2005_and_2009_mol.phot.m_2.d_1",
+            "description": "",
+            "canonical_units": "",
+            "amip": "",
+            "grib": "",
+            "aliases": [],
+            "variable_family": "optical_properties"
+        },
+        {
+            "Convention": "emodnet",
+            "standard_name": "euseamap_2023_eunis_2022_habitat_code",
+            "description": "",
+            "canonical_units": "",
+            "amip": "",
+            "grib": "",
+            "aliases": [],
+            "variable_family": "seabed_habitats"
+        },
+        {
+            "Convention": "emodnet",
+            "standard_name": "euseamap_2023_msfd_benthic_broad_habitat_type",
+            "description": "",
+            "canonical_units": "",
+            "amip": "",
+            "grib": "",
+            "aliases": [],
+            "variable_family": "seabed_habitats"
+        },
+        {
+            "Convention": "emodnet",
+            "standard_name": "euseamap_2023_revised_classification_of_mediterranean_habitat_types_mediterranean_sea_only",
+            "description": "",
+            "canonical_units": "",
+            "amip": "",
+            "grib": "",
+            "aliases": [],
+            "variable_family": "seabed_habitats"
+        },
+        {
+            "Convention": "emodnet",
+            "standard_name": "euseamap_2023_salinity_level_at_the_seabed_baltic_sea_only",
+            "description": "",
+            "canonical_units": "",
+            "amip": "",
+            "grib": "",
+            "aliases": [],
+            "variable_family": "seabed_habitats"
+        },
+        {
+            "Convention": "emodnet",
+            "standard_name": "euseamap_2023_habitat_classification_that_describes_salinity_level_baltic_sea_only",
+            "description": "",
+            "canonical_units": "",
+            "amip": "",
+            "grib": "",
+            "aliases": [],
+            "variable_family": "seabed_habitats"
+        },
+        {
+            "Convention": "emodnet",
+            "standard_name": "euseamap_2023_helcom_hub_classification_habitat_baltic_sea_only",
+            "description": "",
+            "canonical_units": "",
+            "amip": "",
+            "grib": "",
+            "aliases": [],
+            "variable_family": "seabed_habitats"
+        },
+        {
+            "Convention": "emodnet",
+            "standard_name": "confidence_in_kinetic_energy_values_at_the_seabed_due_to_waves_along_the_portuguese_coasts",
+            "description": "",
+            "canonical_units": "",
+            "amip": "",
+            "grib": "",
+            "aliases": [],
+            "variable_family": "waves"
+        },
+        {
+            "Convention": "emodnet",
+            "standard_name": "mean_of_annual_90th_percentile_kinetic_energy_due_to_waves_values_along_the_portuguese_coasts",
+            "description": "",
+            "canonical_units": "",
+            "amip": "",
+            "grib": "",
+            "aliases": [],
+            "variable_family": "waves"
+        },
+        {
+            "Convention": "emodnet",
+            "standard_name": "mean_of_annual_90th_percentile_kinetic_energy_due_to_waves_values_in_the_atlantic",
+            "description": "",
+            "canonical_units": "",
+            "amip": "",
+            "grib": "",
+            "aliases": [],
+            "variable_family": "waves"
+        },
+        {
+            "Convention": "emodnet",
+            "standard_name": "confidence_in_kinetic_energy_values_at_the_seabed_due_to_waves_in_the_atlantic",
+            "description": "",
+            "canonical_units": "",
+            "amip": "",
+            "grib": "",
+            "aliases": [],
+            "variable_family": "waves"
+        },
+        {
+            "Convention": "emodnet",
+            "standard_name": "mean_of_annual_90th_percentile_kinetic_energy_wave_at_the_seabed_values",
+            "description": "",
+            "canonical_units": "",
+            "amip": "",
+            "grib": "",
+            "aliases": [],
+            "variable_family": "waves"
+        },
+        {
+            "Convention": "emodnet",
+            "standard_name": "confidence_in_energy_values_at_the_seabed_due_to_waves_in_the_azores",
+            "description": "",
+            "canonical_units": "",
+            "amip": "",
+            "grib": "",
+            "aliases": [],
+            "variable_family": "waves"
+        },
+        {
+            "Convention": "emodnet",
+            "standard_name": "confidence_in_kinetic_energy_values_at_the_seabed_due_to_waves_in_the_celtic_sea_channel_and_bay_of_biscay",
+            "description": "",
+            "canonical_units": "",
+            "amip": "",
+            "grib": "",
+            "aliases": [],
+            "variable_family": "waves"
+        },
+        {
+            "Convention": "emodnet",
+            "standard_name": "mean_of_annual_90th_percentile_kinetic_energy_due_to_waves_values_in_the_celtic_sea_channel_and_bay_of_biscay_between_2010_and_2015",
+            "description": "",
+            "canonical_units": "",
+            "amip": "",
+            "grib": "",
+            "aliases": [],
+            "variable_family": "waves"
+        },
+        {
+            "Convention": "emodnet",
+            "standard_name": "confidence_in_kinetic_energy_values_at_the_seabed_due_to_waves_in_the_black_sea",
+            "description": "",
+            "canonical_units": "",
+            "amip": "",
+            "grib": "",
+            "aliases": [],
+            "variable_family": "waves"
+        },
+        {
+            "Convention": "emodnet",
+            "standard_name": "mean_of_annual_90th_percentile_kinetic_energy_values_due_to_waves_between_2016_and_2018_in_the_black_sea",
+            "description": "",
+            "canonical_units": "",
+            "amip": "",
+            "grib": "",
+            "aliases": [],
+            "variable_family": "waves"
+        },
+        {
+            "Convention": "emodnet",
+            "standard_name": "mean_of_annual_90th_percentile_kinetic_energy_due_to_waves_values_in_the_iberian_peninsula",
+            "description": "",
+            "canonical_units": "",
+            "amip": "",
+            "grib": "",
+            "aliases": [],
+            "variable_family": "waves"
+        },
+        {
+            "Convention": "emodnet",
+            "standard_name": "confidence_in_kinetic_energy_values_at_the_seabed_due_to_waves_in_the_berian_peninsula",
+            "description": "",
+            "canonical_units": "",
+            "amip": "",
+            "grib": "",
+            "aliases": [],
+            "variable_family": "waves"
+        },
+        {
+            "Convention": "emodnet",
+            "standard_name": "mean_of_annual_90th_percentile_kinetic_energy_values_due_to_waves_between_2016_and_2018_in_macronesia",
+            "description": "",
+            "canonical_units": "",
+            "amip": "",
+            "grib": "",
+            "aliases": [],
+            "variable_family": "waves"
+        },
+        {
+            "Convention": "emodnet",
+            "standard_name": "wave_exposure_index_at_the_surface_in_the_baltic_sea_and_part_of_the_north_sea_kattegat_strait_between_2002_and_2007",
+            "description": "",
+            "canonical_units": "",
+            "amip": "",
+            "grib": "",
+            "aliases": [],
+            "variable_family": "waves"
+        },
+        {
+            "Convention": "emodnet",
+            "standard_name": "relationship_between_original_habitat_and_eunis_version_2007_11_habitat_type",
+            "description": "",
+            "canonical_units": "",
+            "amip": "",
+            "grib": "",
+            "aliases": [],
+            "variable_family": "seabed_habitats"
+        },
+        {
+            "Convention": "emodnet",
+            "standard_name": "composition_of_habitats_within_polygon_groups",
+            "description": "",
+            "canonical_units": "",
+            "amip": "",
+            "grib": "",
+            "aliases": [],
+            "variable_family": "seabed_habitats"
+        },
+        {
+            "Convention": "emodnet",
+            "standard_name": "eunis_version_2007_11_habitat_code",
+            "description": "",
+            "canonical_units": "",
+            "amip": "",
+            "grib": "",
+            "aliases": [],
+            "variable_family": "seabed_habitats"
+        },
+        {
+            "Convention": "emodnet",
+            "standard_name": "original_habitat_type",
+            "description": "",
+            "canonical_units": "",
+            "amip": "",
+            "grib": "",
+            "aliases": [],
+            "variable_family": "seabed_habitats"
+        },
+        {
+            "Convention": "emodnet",
+            "standard_name": "mesh_confidence_score",
+            "description": "",
+            "canonical_units": "",
+            "amip": "",
+            "grib": "",
+            "aliases": [],
+            "variable_family": "seabed_habitats"
+        },
+        {
+            "Convention": "emodnet",
+            "standard_name": "measurements_counts",
+            "description": "",
+            "canonical_units": "",
+            "amip": "",
+            "grib": "",
+            "aliases": [],
+            "variable_family": "contaminants"
+        },
+        {
+            "Convention": "emodnet",
+            "standard_name": "sea_surface_height_above_sea_level",
+            "description": "",
+            "canonical_units": "",
+            "amip": "",
+            "grib": "",
+            "aliases": [],
+            "variable_family": "elevation"
+        },
+        {
+            "Convention": "emodnet",
+            "standard_name": "in_situ_data",
+            "description": "",
+            "canonical_units": "",
+            "amip": "",
+            "grib": "",
+            "aliases": [],
+            "variable_family": "other"
+        },
+        {
+            "Convention": "emodnet",
+            "standard_name": "concentration_of_suspended_matter_in_sea_water",
+            "description": "",
+            "canonical_units": "",
+            "amip": "",
+            "grib": "",
+            "aliases": [],
+            "variable_family": "sm"
+        },
+        {
+            "Convention": "emodnet",
+            "standard_name": "wave_height_and_velocity",
+            "description": "",
+            "canonical_units": "",
+            "amip": "",
+            "grib": "",
+            "aliases": [],
+            "variable_family": "waves"
+        },
+        {
+            "Convention": "emodnet",
+            "standard_name": "environment",
+            "description": "",
+            "canonical_units": "",
+            "amip": "",
+            "grib": "",
+            "aliases": [],
+            "variable_family": "human_marine_activities"
+        },
+        {
+            "Convention": "emodnet",
+            "standard_name": "qidate",
+            "description": "",
+            "canonical_units": "",
+            "amip": "",
+            "grib": "",
+            "aliases": [],
+            "variable_family": "elevation"
+        },
+        {
+            "Convention": "emodnet",
+            "standard_name": "purposeqi",
+            "description": "",
+            "canonical_units": "",
+            "amip": "",
+            "grib": "",
+            "aliases": [],
+            "variable_family": "elevation"
+        },
+        {
+            "Convention": "emodnet",
+            "standard_name": "verticalqi",
+            "description": "",
+            "canonical_units": "",
+            "amip": "",
+            "grib": "",
+            "aliases": [],
+            "variable_family": "elevation"
+        },
+        {
+            "Convention": "emodnet",
+            "standard_name": "qicombined",
+            "description": "",
+            "canonical_units": "",
+            "amip": "",
+            "grib": "",
+            "aliases": [],
+            "variable_family": "elevation"
+        },
+        {
+            "Convention": "emodnet",
+            "standard_name": "areatype",
+            "description": "",
+            "canonical_units": "",
+            "amip": "",
+            "grib": "",
+            "aliases": [],
+            "variable_family": "elevation"
+        },
+        {
+            "Convention": "emodnet",
+            "standard_name": "name",
+            "description": "",
+            "canonical_units": "",
+            "amip": "",
+            "grib": "",
+            "aliases": [],
+            "variable_family": "elevation"
+        },
+        {
+            "Convention": "emodnet",
+            "standard_name": "horizontal",
+            "description": "",
+            "canonical_units": "",
+            "amip": "",
+            "grib": "",
+            "aliases": [],
+            "variable_family": "elevation"
+        },
+        {
+            "Convention": "emodnet",
+            "standard_name": "bathymetry_topography",
+            "description": "",
+            "canonical_units": "",
+            "amip": "",
+            "grib": "",
+            "aliases": [],
+            "variable_family": "elevation"
+        },
+        {
+            "Convention": "emodnet",
+            "standard_name": "level",
+            "description": "",
+            "canonical_units": "",
+            "amip": "",
+            "grib": "",
+            "aliases": [],
+            "variable_family": "elevation"
+        }
+    ]
+}

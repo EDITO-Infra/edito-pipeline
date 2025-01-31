@@ -1,0 +1,14 @@
+layer_collection: edito
+layer_collection_config: https://emodnet.ec.europa.eu/geoviewer/edito.php
+previous_layer_catalog: layer_catalogs/progress_edito_2024-10-27.json
+transfer_native_to_s3: True
+convert_arco: True
+create_backup_stac: True
+stac_s3_backup: backup_stac/edito_stac
+stac_title: EMODnet
+stac_s3: stac
+cp_transformation_table: True
+attributes_table: True
+attribute_s3: attributes_tables/attributes_table
+push_to_resto: True
+resto_instance: dive

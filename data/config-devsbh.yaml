@@ -1,0 +1,14 @@
+layer_collection: edito
+layer_collection_config: http://dev.emodnet.eu/geoviewer/edito.php
+previous_layer_catalog: layer_catalogs/progress_thematicstac_dev_edito_EMODnet Seabed Habitats_2024-12-12.json
+thematic_lots_to_process:
+  - EMODnet Seabed Habitats
+transfer_native_to_s3: True
+convert_arco: True
+create_backup_stac: False
+stac_s3_backup: backup_stac/backup_edito_stac_test
+stac_title: EMODnetSeabedHabitats
+stac_s3: emodnet_seabed_habitats/teststac_sbh_3
+attributes_table: True
+attribute_s3: attributes_tables/attributes_table
+push_to_resto: False
