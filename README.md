@@ -59,7 +59,7 @@ The configuration files are in `.yaml` format and stored in the `data` directory
 
 ##### Optional Configuration
 - **previous_layer_catalog**: Local json file containing previously processed layer catalog
-- **thematic_lots_to_process**: List of thematic lots to process. Default is an empty list.
+- **select**: Dictionary containing attributes and values to select specific layers. Default is an empty dictionary.
 - **transfer_native_to_s3**: Boolean indicating whether to transfer native assets to S3. Default is `False`.
 - **convert_arco**: Boolean indicating whether to convert native assets to ARCO formats. Default is `False`.
 - **create_backup_stac**: Boolean indicating whether to create a backup of the STAC catalog. Default is `False`.
@@ -79,7 +79,9 @@ layer_collection_config: 'https://emodnet.ec.europa.eu/geoviewer/edito.php'
 stac_title: 'EDITO STAC Catalog'
 stac_s3: 's3://my-bucket/stac'
 previous_layer_catalog: layer_catalogs/edito_2025_end.json
-thematic_lots_to_process: ['lot1', 'lot2']
+select:
+  - id:
+    - 13662
 transfer_native_to_s3: true
 convert_arco: true
 create_backup_stac: true
